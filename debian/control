@@ -1,0 +1,16 @@
+Source: ubuntu-flashback-meta
+Section: metapackages
+Priority: optional
+Maintainer: Mystic-Mirage <mm@m10e.net>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9), germinate (>= 2.16)
+Homepage: https://launchpad.net/ubuntu-flashback/
+
+Package: ubuntu-flashback-desktop
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Ubuntu Flashback - full desktop
+ This package is the Ubuntu Flashback desktop environment.
+ .
+ It is safe to remove this package if some of these packages are not desired.
